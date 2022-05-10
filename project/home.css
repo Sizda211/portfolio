@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/2.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+/*.......................navigation bar............................*/
+
+nav {
+    display: flex;
+    padding: 2% 1%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 200px;
+}
+
+.nav_links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav_links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 10px;
+    position: relative;
+}
+
+.nav_links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav_links ul li::after {
+    content: '';
+    width: 0%;
+    height: 5px;
+    background: red;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav_links ul li:hover::after {
+    width: 100%;
+}
+
+.text_box {
+    width: 100%;
+    color: white;
+    position: absolute;
+    top: 40%;
+    bottom: 20%;
+    text-align: center;
+}
+
+.text_box h1 {
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+.text_box p {
+    margin: 20px 0 20px;
+    font-size: 20px;
+    color: #ecb708;
+}
+
+.text_box a {
+    margin: 20px 0 15px;
+    font-size: 20px;
+    color: rgb(241, 241, 237);
+}
+
+.box {
+    display: inline-block;
+    text-decoration: none;
+    border: 5px solid rgb(7, 6, 6);
+    padding: 10px 25px;
+    font-size: 30px;
+    background: transparent;
+    position: relative;
+    cursor: grab;
+}
+
+.box:hover {
+    border: 7px solid rgb(4, 4, 4);
+    background: rgb(9, 8, 8);
+    transition: 0.5s;
+}
+
+
+/*..........................................A little Bit about me...........................................*/
+
+.writting p {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    color: rgb(255, 250, 250);
+    flex-basis: 10px;
+    background: whitesmoke;
+    border-radius: 1px;
+    margin-bottom: 10%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.me {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.me_box {
+    text-align: center;
+}
+
+div .me_box_1 h1 {
+    font-size: 50px;
+    color: rgb(147, 120, 235);
+}
+
+div .me_box_1 {
+    font-size: 33px;
+}
+
+.me_box a {
+    margin: 10px 0 5px;
+    font-size: 20px;
+    color: rgb(9, 244, 244);
+}
+
+.me_box_1 p {
+    color: aliceblue;
+}
+
+
+/*.......................................... Education  ...........................................*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.education {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.253), rgba(8, 7, 7, 0.459)), url(images/d1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.row {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.education h1 {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    color: rgb(246, 237, 237);
+    flex-basis: 10px;
+    background: rgb(0, 0, 0);
+    border-radius: 1px;
+    margin-bottom: 10%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.education_col {
+    flex-basis: 30%;
+    background: rgb(236, 235, 233);
+    border-radius: 50px;
+    margin-bottom: 10%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.education_col:hover {
+    border: 5px rgb(219, 95, 190);
+    background: rgb(169, 92, 205);
+    transition: 0.5s;
+    cursor: pointer;
+    position: relative;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    font-size: 50px;
+    color: black;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+}
